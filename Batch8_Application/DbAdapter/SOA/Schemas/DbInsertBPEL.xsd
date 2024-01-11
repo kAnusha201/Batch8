@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        targetNamespace="http://xmlns.oracle.com/Batch8_Application/DbAdapter/DbInsertBPEL"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="process">
+    <complexType>
+      <sequence>
+        <element name="sno" type="string"/>
+        <element name="sname" type="string"/>
+        <element name="english" type="string"/>
+        <element name="hindi" type="string"/>
+        <element name="teleugu" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+</schema>
